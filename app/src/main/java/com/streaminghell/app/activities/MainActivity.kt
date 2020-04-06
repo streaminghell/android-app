@@ -1,4 +1,4 @@
-package info.karelov.songlink.activities
+package com.streaminghell.app.activities
 
 import android.app.Activity
 import android.app.AlertDialog
@@ -6,7 +6,7 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import com.android.billingclient.api.*
-import info.karelov.songlink.R
+import com.streaminghell.app.R
 
 import kotlinx.android.synthetic.main.activity_main.*
 

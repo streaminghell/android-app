@@ -1,4 +1,4 @@
-package info.karelov.songlink
+package com.streaminghell.app
 
 import android.app.AlertDialog
 import android.content.Context

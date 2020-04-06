@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name" translatable="false">Songlink</string>
-    <string name="title" translatable="false">song.link</string>
+    <string name="app_name" translatable="false">Streaming Hell</string>
+    <string name="title" translatable="false">Streaming Hell</string>
     <string name="subtitle">unofficial client application</string>
     <string name="github" translatable="false">Github</string>
     <string name="telegram" translatable="false">Telegram</string>
