@@ -1,4 +1,4 @@
-package info.karelov.songlink.activities
+package io.robotmafia.streaminghell.activities
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -10,7 +10,7 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.util.Patterns
-import info.karelov.songlink.*
+import io.robotmafia.streaminghell.*
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable

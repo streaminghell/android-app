@@ -1,12 +1,10 @@
-package info.karelov.songlink.activities
+package io.robotmafia.streaminghell.activities
 
 import android.app.Activity
 import android.app.AlertDialog
-import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import com.android.billingclient.api.*
-import info.karelov.songlink.R
+import io.robotmafia.streaminghell.R
 
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -17,16 +15,6 @@ class MainActivity : Activity(), PurchasesUpdatedListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        githubButton.setOnClickListener {
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Ty3uK/songlink-android"))
-            startActivity(intent)
-        }
-
-        telegramButton.setOnClickListener {
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/xxxTy3uKxxx"))
-            startActivity(intent)
-        }
 
         donateButton.setOnClickListener {
             val params = BillingFlowParams

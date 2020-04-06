@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name" translatable="false">Songlink</string>
-    <string name="title" translatable="false">song.link</string>
-    <string name="subtitle">unofficial client application</string>
+    <string name="app_name" translatable="false">Streaming Hell</string>
+    <string name="title" translatable="false">Streaming Hell</string>
+    <string name="subtitle">Share a link to a track or album using the \"Share\" feature in your music application and select the Streaming Hell application from the list to find links to other music services.</string>
     <string name="github" translatable="false">Github</string>
     <string name="telegram" translatable="false">Telegram</string>
     <string name="donation">Donation</string>
@@ -17,6 +17,6 @@
     <string name="share_action_share">Share</string>
     <string name="share_action_back">Back</string>
     <string name="share_action_cancel">Cancel</string>
-    <string name="share_title">Select target music service</string>
+    <string name="share_title">Streaming service</string>
     <string name="alert_invalid_url">Invalid URL</string>
 </resources>

@@ -1,4 +1,4 @@
-package info.karelov.songlink
+package io.robotmafia.streaminghell
 
 import android.net.Uri
 import com.github.kittinunf.fuel.Fuel

@@ -1,75 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    <LinearLayout
-            android:id="@+id/center_view"
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center_vertical|center_horizontal"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_above="@id/footer_view">
-        <ImageView
-                android:src="@drawable/ic_songlink"
-                android:layout_width="96dp"
-                android:layout_height="96dp"
-                android:id="@+id/imageView"
-                android:contentDescription="Logo"/>
-        <TextView
-                android:text="@string/title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/title"
-                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
-                android:contentDescription="Title"/>
-        <TextView
-                android:text="@string/subtitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/subtitle"
-                android:contentDescription="Subtitle"/>
-    </LinearLayout>
-    <Button
-            android:text="@string/donation"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/donateButton"
-            android:layout_above="@id/footer_view"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="20dp" android:enabled="false"/>
-    <LinearLayout
-            android:id="@+id/footer_view"
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_vertical|center_horizontal"
-            android:layout_alignParentBottom="true" android:layout_marginBottom="24dp">
-        <ImageButton
-                android:src="@drawable/ic_github"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:id="@+id/githubButton"
-                android:layout_weight="0"
-                android:contentDescription="@string/github"
-                android:background="?android:attr/selectableItemBackgroundBorderless"
-                android:scaleType="centerCrop"
-                android:padding="2dp"/>
-        <ImageButton
-                android:src="@drawable/ic_telegram"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:id="@+id/telegramButton"
-                android:layout_weight="0"
-                android:layout_marginStart="40dp"
-                android:contentDescription="@string/telegram"
-                android:background="?android:attr/selectableItemBackgroundBorderless"
-                android:scaleType="centerCrop"
-                android:padding="2dp"/>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
 
-    </LinearLayout>
+  <LinearLayout
+    android:id="@+id/center_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@id/footer_view"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:paddingStart="10px"
+    android:paddingLeft="10px"
+    android:paddingEnd="10px"
+    android:paddingRight="10px"
+    android:paddingBottom="10px">
+
+    <TextView
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:contentDescription="Title"
+      android:fontFamily="sans-serif-condensed-medium"
+      android:text="@string/title"
+      android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+      android:textSize="30sp" />
+
+    <TextView
+      android:id="@+id/subtitle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:contentDescription="Subtitle"
+      android:fontFamily="sans-serif-condensed"
+      android:paddingLeft="20dp"
+      android:paddingTop="15dp"
+      android:paddingRight="20dp"
+      android:paddingBottom="15dp"
+      android:text="@string/subtitle" />
+  </LinearLayout>
+
+  <Button
+    android:id="@+id/donateButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@id/footer_view"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="20dp"
+    android:enabled="false"
+    android:text="@string/donation" />
+
+  <LinearLayout
+    android:id="@+id/footer_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="24dp"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="horizontal"/>
 </RelativeLayout>
