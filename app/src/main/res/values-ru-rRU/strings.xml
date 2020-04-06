@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="subtitle">неофициальный клиент</string>
+    <string name="subtitle">Поделитесь ссылкой на трек или альбом, с помощью функции «Поделиться» в вашем музыкальном приложении и выберите в списке приложение Streaming Hell, чтобы найти ссылки на другие музыкальные сервисы.</string>
     <string name="donation" translatable="false">Поддержать</string>
     <string name="alert_success">Успешно!</string>
     <string name="alert_error">Ошибка!</string>
@@ -14,6 +14,6 @@
     <string name="share_action_share">Поделиться</string>
     <string name="share_action_back">Назад</string>
     <string name="share_action_cancel">Отменить</string>
-    <string name="share_title">Целевой музыкальный сервис</string>
+    <string name="share_title">Стриминговый сервис</string>
     <string name="alert_invalid_url">Неподдерживаемый URL</string>
 </resources>

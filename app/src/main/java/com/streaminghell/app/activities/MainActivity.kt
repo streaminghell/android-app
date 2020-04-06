@@ -18,16 +18,6 @@ class MainActivity : Activity(), PurchasesUpdatedListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        githubButton.setOnClickListener {
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Ty3uK/songlink-android"))
-            startActivity(intent)
-        }
-
-        telegramButton.setOnClickListener {
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/xxxTy3uKxxx"))
-            startActivity(intent)
-        }
-
         donateButton.setOnClickListener {
             val params = BillingFlowParams
                 .newBuilder()
