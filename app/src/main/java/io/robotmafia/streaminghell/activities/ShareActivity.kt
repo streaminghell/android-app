@@ -1,4 +1,4 @@
-package com.streaminghell.app.activities
+package io.robotmafia.streaminghell.activities
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -10,7 +10,7 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.util.Patterns
-import com.streaminghell.app.*
+import io.robotmafia.streaminghell.*
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable

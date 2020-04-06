@@ -1,12 +1,10 @@
-package com.streaminghell.app.activities
+package io.robotmafia.streaminghell.activities
 
 import android.app.Activity
 import android.app.AlertDialog
-import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import com.android.billingclient.api.*
-import com.streaminghell.app.R
+import io.robotmafia.streaminghell.R
 
 import kotlinx.android.synthetic.main.activity_main.*
 

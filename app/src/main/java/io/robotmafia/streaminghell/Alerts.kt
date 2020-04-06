@@ -1,4 +1,4 @@
-package com.streaminghell.app
+package io.robotmafia.streaminghell
 
 import android.app.AlertDialog
 import android.content.Context
