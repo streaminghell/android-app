@@ -98,13 +98,13 @@ class SongLink {
             )
         }
 
-        providers.add(
-            Provider(
-                "song.link",
-                "song.link",
-                response.pageUrl
-            )
-        )
+//        providers.add(
+//            Provider(
+//                "song.link",
+//                "song.link",
+//                response.pageUrl
+//            )
+//        )
 
         return Observable.just(providers)
     }
